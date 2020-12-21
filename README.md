@@ -11,7 +11,7 @@ Authors: @pwnedshell & @rsgbengi
 <p align="center">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/PwnedShell/Larascript?style=for-the-badge">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/PwnedShell/Larascript?style=for-the-badge">
-    <img alt="GitHub" src="https://img.shields.io/github/license/PwnedShell/Larascript?style=for-the-badge">
+    <img alt="GitHub" src="https://img.shields.io/github/license/pwnedshell/Larascript?style=for-the-badge">
 </p>
 <p align="center">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/pwnedshell?style=for-the-badge">
