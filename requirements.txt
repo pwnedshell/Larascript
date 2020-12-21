@@ -1,0 +1,12 @@
+art==5.1
+beautifulsoup4==4.9.3
+pwn==1.0
+pwntools==4.3.1
+pycrypto==2.6.1
+pycryptodome==3.9.9
+pycryptodomex==3.9.7
+requests==2.24.0
+requests-file==1.5.1
+requests-futures==1.0.0
+requests-ntlm==1.1.0
+requests-toolbelt==0.8.0
