@@ -17,7 +17,7 @@ Authors: @pwnedshell & @rsgbengi
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/pwnedshell?style=for-the-badge">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rsgbengi?style=for-the-badge">
 </p>
-<br>
+<br> 
 
 <h2>📌 What its Larascript?</h2>
 Larascript is a script which take advantage from <code>CVE-2018-15133</code> and can execute remote commands if a vulnerable Laravel app is exposed. You can send commands and get response such as get <code>cat /etc/passwd</code>. But you also can ask for a shell so it gives you a reverse shell. It has some argument personalitation so you can specify what type of reverse shell you get (bash or sh), what reverse shell language use to retrieve the shell (php, bash, mkfifo, python...) or the laravel RCE method (1,2,3 or 4). It also provides a good shell interaction and references to the shell treatment or linux privilege escalation.
