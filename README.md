@@ -26,7 +26,10 @@ Larascript is a script which take advantage from <code>CVE-2018-15133</code> and
 In Laravel Framework through 5.5.40 and 5.6.x through 5.6.29, remote code execution might occur as a result of an unserialize call on a potentially untrusted X-XSRF-TOKEN value. This involves the decrypt method in Illuminate/Encryption/Encrypter.php and PendingBroadcast in gadgetchains/Laravel/RCE/3/chain.php in phpggc. The attacker must know the application key, which normally would never occur, but could happen if the attacker previously had privileged access or successfully accomplished a previous attack.
 
 <h2>📦 Install</h2>
-<pre>pip install -r requirements.txt</pre>
+<pre>
+git clone https://github.com/PwnedShell/Larascript
+pip3 install -r requirements.txt
+</pre>
 
 <h2>📘 Usage</h2>
 Required params are the vulnerable <strong>url</strong> and the <strong>app_key</strong> in base64. See <code>larascript.py -h</code>.<br><br>
