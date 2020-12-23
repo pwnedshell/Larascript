@@ -15,7 +15,7 @@ Authors: @pwnedshell & @rsgbengi
 </p>
 <p align="center">
     <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/pwnedshell?style=for-the-badge">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rsgbengi?style=for-the-badge">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/rsgbengii?style=for-the-badge">
 </p>
 <br> 
 
@@ -40,11 +40,11 @@ usage: larascript.py [-h] -k APPKEY [-c COMMAND] [-m {1,2,3,4,5}] [-s {bash,pyth
 </pre>
 Send the command <code>whoami</code><br><br>
 <p align="center">
-<img width="80%" src="https://github.com/rsgbengi/DreamTeamArmy/blob/main/Intrusion/Laravel%20CVE-2018-15133/pictures/command-poc.png">
+<img width="80%" src="https://github.com/PwnedShell/Larascript/blob/main/Intrusion/Laravel%20CVE-2018-15133/pictures/command-poc.png">
 </p>
 Get a reverse shell using mkfifo payload. Setting the lhost to our local machine<br><br>
 <p align="center">
-<img width="80%" src="https://github.com/rsgbengi/DreamTeamArmy/blob/main/Intrusion/Laravel%20CVE-2018-15133/pictures/shell-poc1.png">
+<img width="80%" src="https://github.com/PwnedShell/Larascript/blob/main/Intrusion/Laravel%20CVE-2018-15133/pictures/shell-poc1.png">
 </p>
 
 <h2>📎 References</h2>
